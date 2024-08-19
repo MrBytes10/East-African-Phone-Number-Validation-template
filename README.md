@@ -1,5 +1,7 @@
 # East African Phone Number Validator
 
+![screenshot-for-the-validator](EA-validation.jpg)
+
 ## Description
 
 This project implements a user-friendly and robust phone number validation system for East African countries. It provides real-time feedback and validation for phone numbers from Kenya, Uganda, Tanzania, Rwanda, and Burundi.
