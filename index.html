@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>East African Phone Number Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="validation-form">
+        <h1>East African Phone Number Validation</h1>
+
+        <div class="container">
+            <h2>Log in</h2>
+            <form id="phoneForm">
+                <div class="input-group">
+                    <select id="countryCode">
+                        <option value="+254">Kenya (+254)</option>
+                        <option value="+256">Uganda (+256)</option>
+                        <option value="+255">Tanzania (+255)</option>
+                        <option value="+250">Rwanda (+250)</option>
+                        <option value="+257">Burundi (+257)</option>
+                    </select>
+                    <input type="tel" id="phoneNumber" placeholder="Enter phone number" required>
+                </div>
+                <p id="errorMessage" class="error-message"></p>
+                <button type="submit" class="next-bt">Next</button>
+            </form>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
